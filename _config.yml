@@ -24,10 +24,10 @@ url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. 
 
 # Social Media URLs
  
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
+# plugins:
+#   - jekyll-feed
+#   - jekyll-paginate
+#   - jekyll-seo-tag
 
 #Which markdown interpreter to use
 markdown: kramdown
