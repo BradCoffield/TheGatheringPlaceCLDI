@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+	Hyperbolic by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+  <head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <section id="header" class="">
+        {%include nav.html%}
+      </section>
+
+      <!-- Section -->
+      <section class="wrapper style1">
+        <div class="inner">
+          <header class="major special">
+            <h1>{{page.title}}</h1>
+            <p>
+             {{page.subtitle}}
+            </p>
+          </header>
+          {{content}}
+      </section>
+{%include footer.html%}
+  </body>
+</html>

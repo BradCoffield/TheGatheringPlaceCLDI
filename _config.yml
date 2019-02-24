@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: The Gathering Place
+email: someemail@test.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The Gathering Place in Billings, MT is a destination for events and weddings.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+
+# Social Media URLs
+ 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+#Which markdown interpreter to use
+markdown: kramdown
+
+#Sass builds into CSS. This is saying where to find it and to compress it for production when it makes it CSS
+sass:
+    sass_dir: _sass
+    style: compressed
+
+#What the various page URL's should look like 
+permalink: /:title
+
+# #Defining details about collections, which are groups of content that aren't blog posts.
+# collections_dir: collections
+# collections:
+#   river-and-land-initiatives:   
+#     output: true
+#     permalink: /:collection/:name
+#   ocean-and-coastal-initiatives:
+#     output: true
+#     permalink: /:collection/:name
+#   blog:
+#     output: true
+#     permalink: /:collection/:name
+
+
+
+
+
+
