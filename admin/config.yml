@@ -21,3 +21,13 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "site-settings"
+    label: "Site Settings"
+    files: 
+      - label: "Website Settings"
+        name: "site"
+        file: "_data/site.yml"
+        fields: 
+          - label: "Telephone"
+            name: "telephone"
+            widget: "string"
