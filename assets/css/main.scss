@@ -207,6 +207,7 @@
 	//MY STUFF
 	#book-tour-navbutton {
 		a{border: 2px solid goldenrod!important;}
+		text-transform: uppercase;
 	}
 
 	@font-face{ 
@@ -256,4 +257,8 @@
 		border: 1px solid goldenrod;
 		border-radius: 100%;
 		padding: 1rem;
+	}
+
+	*::selection{
+		background-color: antiquewhite;
 	}
