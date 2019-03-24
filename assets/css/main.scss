@@ -266,3 +266,29 @@
 	.subpage-banner-image{
 		max-height: 350px;
 	}
+
+	.gallery-image {
+		background: #eff4f6;
+		padding: 1rem;
+		margin: 0rem 1rem 2rem;
+		width: 300px;
+		max-width: 100%;
+		box-shadow: 1px 2px 3px rgb(218, 214, 214);
+
+	}
+
+	#Gallery {
+		header.major p {
+			font-size: 1.25rem;
+			margin: 0px 0 1rem 0;
+		}
+		a {
+			border-bottom: 0px solid white;
+		}
+		
+	}
+	#gallery-wrap{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
