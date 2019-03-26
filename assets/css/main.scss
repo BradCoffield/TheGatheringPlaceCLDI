@@ -9,11 +9,7 @@
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i');
 
-/*
-	Hyperbolic by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+ 
 
 // Breakpoints.
 
@@ -291,4 +287,30 @@
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
+	}
+	.center {
+		text-align: center;
+	}
+
+	.dropcap{
+		font-family: 'AnticDidone', Helvetica, sans-serif;
+		color: #111;
+		float: left;
+		font-family: Georgia;
+		font-size: 75px;
+		line-height: 60px;
+		padding-top: 4px;
+		padding-right: 8px;
+		padding-left: 3px;
+	}
+	.dropcap2{
+		font-family: 'AnticDidone', Helvetica, sans-serif;
+		color: #777;
+		float: left;
+		font-family: Georgia;
+		font-size: 75px;
+		line-height: 60px;
+		padding-top: 4px;
+		padding-right: 8px;
+		padding-left: 3px;
 	}
