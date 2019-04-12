@@ -5,6 +5,22 @@
 ///
 
 /* Banner */
+//  #banner.overlay{
+// 	background-image: linear-gradient(90deg, #{transparentize(_palette(invert, bg), 0.4)}, #{transparentize(_palette(invert, bg), 0.4)}),
+//  }
+
+	// .getOverlaid{
+	// 	position: absolute;
+	//     top: 0;
+	//     right: 0;
+	//     left: 0;
+	//     bottom: 0;
+	//     z-index: -1;
+	// 	background-image:  linear-gradient(90deg, #{transparentize(_palette(invert, bg), 0.2)}, #{transparentize(_palette(invert, bg), 0.2)});
+	// 	 padding: 2rem;
+	// 	 border-radius: 10px;
+	// 	 box-shadow: 0px 0px 10px #777;
+	// }
 
 	#banner {
 		$wrapper-pad: _size(wrapper-pad, default);
@@ -17,15 +33,16 @@
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, #{transparentize(_palette(invert, bg), 0.4)}, #{transparentize(_palette(invert, bg), 0.4)}), url('../../images/gathering-1.jpg');
+		z-index: 1;
+		// background-image: linear-gradient(90deg, #{transparentize(_palette(invert, bg), 0.4)}, #{transparentize(_palette(invert, bg), 0.4)}), url('../../images/gathering-1.jpg');
+		background-image:  url('../../images/gathering-1.jpg');
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		min-height: calc(75vh + #{_size(element-height) * 2});
 		position: relative;
 		text-align: center;
-		-webkit-transition: background-image 1s ease-in-out;
-transition: background-image 1s ease-in-out;
+ 
 
 		&:before {
 			@include vendor('pointer-events', 'none');
