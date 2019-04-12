@@ -24,6 +24,8 @@
 		min-height: calc(75vh + #{_size(element-height) * 2});
 		position: relative;
 		text-align: center;
+		-webkit-transition: background-image 1s ease-in-out;
+transition: background-image 1s ease-in-out;
 
 		&:before {
 			@include vendor('pointer-events', 'none');
