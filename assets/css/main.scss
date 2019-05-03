@@ -248,6 +248,18 @@
 		display: flex;
 		align-items: center;
 	}
+	.get-flexxed-2{
+		display: flex;
+		// align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.get-flexxed-3{
+		display: flex;
+		// align-items: center;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 	.circle-border{
 		// border: 1px dotted white;
 		border: 1px solid goldenrod;
@@ -313,4 +325,13 @@
 		padding-top: 4px;
 		padding-right: 8px;
 		padding-left: 3px;
+	}
+
+	section#header{
+		// background: linear-gradient(180deg,RGBA(59, 82, 85, .8), RGBA(255, 255, 255, .01) 70%) no-repeat!important;
+		// background-image: url("../../images/overlay.png"),linear-gradient(90deg, rgba(58,81,84,0), #648b90 90%)!important;
+	}
+
+	.features h3{
+		font-weight: bold;
 	}
